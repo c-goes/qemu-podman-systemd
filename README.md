@@ -23,5 +23,5 @@ podman run --systemd=always --rm --name=debian-arm  --entrypoint=/usr/bin/qemu-a
 ## run a shell
 
 ```
-podman exec -it web /usr/bin/qemu-arm-static -execve /bin/bash
+podman exec -it debian-arm /usr/bin/qemu-arm-static -execve /bin/bash
 ```
