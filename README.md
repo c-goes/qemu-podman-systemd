@@ -25,3 +25,9 @@ podman run --systemd=always --rm --name=debian-arm  --entrypoint=/usr/bin/qemu-a
 ```
 podman exec -it debian-arm /usr/bin/qemu-arm-static -execve /bin/bash
 ```
+
+Type the following to be able to access any command in the shell:
+
+```
+mv /bin/sh.real /bin/sh
+```
