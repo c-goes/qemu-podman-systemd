@@ -7,6 +7,7 @@ Small PoC to run a Podman systemd container for another architecture.
 
 Using the [containers images from Balena](https://www.balena.io/blog/building-arm-containers-on-any-x86-machine-even-dockerhub/) including a [qemu with a new flag `execve`](https://github.com/balena-io/qemu) it is possible to containerize a complete system for another architecture in a rootless Podman container.
 
+In this repo a Debian 10 container for armv7hf on x86_64.
 
 ## build the container
 
